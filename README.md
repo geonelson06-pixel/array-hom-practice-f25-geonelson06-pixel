@@ -24,3 +24,17 @@ You’re given an array of fruit names. Use .findIndex() to find the index of "m
 // Your code here
 // Expected output: 2
 ```
+
+## `.map()`
+
+You’re given an array of objects representing books. Use .map() to create a new array that contains only the titles of the books.
+
+```js
+const books = [
+  { title: "The Hobbit", author: "J.R.R. Tolkien" },
+  { title: "1984", author: "George Orwell" },
+  { title: "Pride and Prejudice", author: "Jane Austen" },
+];
+
+// Expected output: ["The Hobbit", "1984", "Pride and Prejudice"]
+```
