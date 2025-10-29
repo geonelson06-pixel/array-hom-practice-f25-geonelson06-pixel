@@ -5,7 +5,9 @@ const students = [
   { name: "Carla", score: 78 },
 ];
 
-// Your code here
+const greatest = (student) => student > 90
+
+console.log(students.findIndex(greatest));
 
 
 // Expected output: { name: "Brian", score: 95 }
@@ -14,7 +16,7 @@ const students = [
 
 const fruits = ["apple", "banana", "mango", "orange"];
 
-// Your code here
+console.log(fruits.findIndex(fruits));
 
 
 // Expected output: 2
@@ -28,5 +30,5 @@ const books = [
   { title: "Pride and Prejudice", author: "Jane Austen" },
 ];
 
-// Your code here
+console.map(books.findIndex(title));
 // Expected output: ["The Hobbit", "1984", "Pride and Prejudice"]
